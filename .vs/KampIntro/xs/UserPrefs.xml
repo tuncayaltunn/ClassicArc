@@ -7,30 +7,21 @@
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/NorthwindContext.cs">
     <Files>
-      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="62" Column="39" />
-      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="26" Column="1" />
-      <File FileName="Entities/Concrete/Product.cs" Line="22" Column="15" />
-      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" Line="31" Column="49" />
-      <File FileName="ConsoleUI/Program.cs" Line="14" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="14" Column="10" />
+      <File FileName="Entities/Concrete/Product.cs" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" />
+      <File FileName="ConsoleUI/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="KampIntro" expanded="True">
-            <Node name="Business">
-              <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="DataAccess">
-              <Node name="Abstract" expanded="True" />
+          <Node name="KampIntro">
+            <Node name="DataAccess" expanded="True">
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="NorthwindContext.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
                 <Node name="InMemory" expanded="True" />
               </Node>
-            </Node>
-            <Node name="Entities">
-              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -1,5 +1,7 @@
 ﻿using System;
-using Entities.Abstract;
+using System.ComponentModel.DataAnnotations;
+using Core.Entities;
+
 
 namespace Entities.Concrete
 {
@@ -8,10 +10,10 @@ namespace Entities.Concrete
 		public Category()
 		{
 		}
+		[Key]
+		public int category_id { get; set; }
 
-		public int CategoryId { get; set; }
-
-		public string CategoryName { get; set; }
+		public string category_name { get; set; }
 	}
 }
 

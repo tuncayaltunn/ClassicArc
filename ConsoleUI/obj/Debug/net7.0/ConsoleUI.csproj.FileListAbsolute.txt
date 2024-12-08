@@ -18,11 +18,13 @@
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Npgsql.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Business.dll
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Core.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/DataAccess.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Entities.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Business.pdb
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/DataAccess.pdb
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Entities.pdb
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Core.pdb
 /Users/taft/Projects/KampIntro/ConsoleUI/obj/Debug/net7.0/ConsoleUI.csproj.AssemblyReference.cache
 /Users/taft/Projects/KampIntro/ConsoleUI/obj/Debug/net7.0/ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/taft/Projects/KampIntro/ConsoleUI/obj/Debug/net7.0/ConsoleUI.AssemblyInfoInputs.cache

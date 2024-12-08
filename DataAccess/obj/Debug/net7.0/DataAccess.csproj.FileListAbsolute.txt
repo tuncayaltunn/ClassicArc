@@ -1,8 +1,10 @@
 /Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
 /Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/DataAccess.dll
 /Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+/Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/Core.dll
 /Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/Entities.dll
 /Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/Entities.pdb
+/Users/taft/Projects/KampIntro/DataAccess/bin/Debug/net7.0/Core.pdb
 /Users/taft/Projects/KampIntro/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
 /Users/taft/Projects/KampIntro/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 /Users/taft/Projects/KampIntro/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache

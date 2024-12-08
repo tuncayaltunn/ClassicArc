@@ -1,11 +1,14 @@
 /Users/taft/Projects/KampIntro/Entities/bin/Debug/net7.0/Entities.deps.json
 /Users/taft/Projects/KampIntro/Entities/bin/Debug/net7.0/Entities.dll
 /Users/taft/Projects/KampIntro/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/taft/Projects/KampIntro/Entities/bin/Debug/net7.0/Core.dll
+/Users/taft/Projects/KampIntro/Entities/bin/Debug/net7.0/Core.pdb
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.csproj.CopyComplete
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.dll
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/refint/Entities.dll
 /Users/taft/Projects/KampIntro/Entities/obj/Debug/net7.0/Entities.pdb

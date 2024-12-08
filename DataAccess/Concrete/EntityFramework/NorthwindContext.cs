@@ -6,9 +6,6 @@ namespace DataAccess.Concrete.EntityFramework
 {
 	public class NorthwindContext : DbContext
 	{
-		//public NorthwindContext(DbContextOptions options) : base(options)
-		//{
-		//}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,6 +15,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Category> categories { get; set; }
         public DbSet<Product> products { get; set; }
         public DbSet<Customer> customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
     }
 }

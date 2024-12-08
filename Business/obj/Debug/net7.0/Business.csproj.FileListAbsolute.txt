@@ -1,10 +1,12 @@
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Business.deps.json
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Business.dll
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Business.pdb
+/Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Core.dll
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/DataAccess.dll
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Entities.dll
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/DataAccess.pdb
 /Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Entities.pdb
+/Users/taft/Projects/KampIntro/Business/bin/Debug/net7.0/Core.pdb
 /Users/taft/Projects/KampIntro/Business/obj/Debug/net7.0/Business.csproj.AssemblyReference.cache
 /Users/taft/Projects/KampIntro/Business/obj/Debug/net7.0/Business.GeneratedMSBuildEditorConfig.editorconfig
 /Users/taft/Projects/KampIntro/Business/obj/Debug/net7.0/Business.AssemblyInfoInputs.cache

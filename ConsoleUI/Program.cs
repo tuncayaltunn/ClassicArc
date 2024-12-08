@@ -7,7 +7,7 @@ using DataAccess.Concrete.InMemory;
 
 ProductManager productManager = new ProductManager(new EfProductDal());
 
-foreach (var item in productManager.GetAll())
+foreach (var item in productManager.GetByUnitPrice(40,100))
 {
     Console.WriteLine(item.product_name);
 }

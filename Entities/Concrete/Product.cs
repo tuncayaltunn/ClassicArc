@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Entities.Abstract;
 
 namespace Entities.Concrete
@@ -9,15 +10,16 @@ namespace Entities.Concrete
 		{
 		}
 
-		public int ProductId { get; set; }
+		[Key]
+		public int product_id { get; set; }
 
-		public int CategoryId { get; set; }
+		public int category_id { get; set; }
 
-		public string ProductName { get; set; }
+		public string product_name { get; set; }
 
-		public short UnitsInStock { get; set; }
+		public short units_in_stock { get; set; }
 
-		public decimal UnitPrice { get; set; }
+		public float unit_price { get; set; }
 
 	}
 }

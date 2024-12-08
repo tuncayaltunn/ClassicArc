@@ -1,46 +1,67 @@
 ﻿using System;
 using System.Linq.Expressions;
 using DataAccess.Abstract;
+using Entities.Abstract;
 using Entities.Concrete;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
 	public class EfProductDal :IProductDal
 	{
-        List<Product> _products;
-
         public EfProductDal()
         {
-            _products = new List<Product>
+
+        }
+
+        public void Add(Product entity)
+        {
+            using (NorthwindContext context = new NorthwindContext())
             {
-               new Product{ ProductId = 1, CategoryId = 1, ProductName = "Tablo", UnitPrice = 15, UnitsInStock = 15 },
-               new Product{ ProductId = 2, CategoryId = 2, ProductName = "Su", UnitPrice = 85, UnitsInStock = 1 },
-            };
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                context.SaveChanges();
+            }
         }
 
-        public void Add(Product product)
+        public void Delete(Product entity)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                var deletedEntity = context.Entry(entity);
+                deletedEntity.State = EntityState.Deleted;
+                context.SaveChanges();
+            }
         }
 
-        public void Delete(Product product)
+        public void Update(Product entity)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                var updatedEntity = context.Entry(entity);
+                updatedEntity.State = EntityState.Modified;
+                context.SaveChanges();
+            }
         }
 
         public Product Get(Expression<Func<Product, bool>> filter)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return context.Set<Product>().SingleOrDefault(filter);
+            }
         }
 
-        public List<Product> GetAll()
-        {
-            return _products;
-        }
+
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return filter == null
+                    ? context.Set<Product>().ToList()
+                    : context.Set<Product>().Where(filter).ToList(); 
+            }
         }
 
         public List<Product> GetByCategory(int categoryId)
@@ -48,10 +69,6 @@ namespace DataAccess.Concrete.EntityFramework
             throw new NotImplementedException();
         }
 
-        public void Update(Product product)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

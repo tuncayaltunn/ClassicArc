@@ -12,7 +12,7 @@ using DataAccess.Concrete.InMemory;
 
 ProductManager productManager = new ProductManager(new EfProductDal());
 
-foreach (var item in productManager.GetProductDetails())
+foreach (var item in productManager.GetProductDetails().Data)
 {
     Console.WriteLine(item.ProductName + "/" + item.CategoryName);
 }
@@ -23,7 +23,7 @@ static void ProductTest()
 {
     ProductManager productManager = new ProductManager(new EfProductDal());
 
-    foreach (var item in productManager.GetAll())
+    foreach (var item in productManager.GetAll().Data)
     {
         Console.WriteLine(item.product_name);
     }

@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{2113C396-864D-48C5-BEF8-73FF972F024D}|Default">
-  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
     <Files>
-      <File FileName="Business/Abstract/IProductService.cs" Line="10" Column="48" />
-      <File FileName="Business/Concrete/ProductManager.cs" Line="34" Column="1" />
-      <File FileName="ConsoleUI/Program.cs" Line="10" Column="53" />
+      <File FileName="ConsoleUI/Program.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KampIntro">
-            <Node name="ConsoleUI">
-              <Node name="Program.cs" selected="True" />
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
             </Node>
+            <Node name="ConsoleUI" expanded="True" />
             <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
                 <Node name="InMemory" expanded="True" />

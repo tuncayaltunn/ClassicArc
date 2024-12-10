@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JCMJfiW17J4ZaMWXctG6mwFsBQRFVL46mrsArbNMKvWSUPXu3C1ntAZs3OG71P81DkefStXGpL+MSdQTGkmssg==",
+  "dgSpecHash": "eN++8mfDp7sdBZOtGYewK3h+5TeJIb0fgflRQTnP3YYNjIt0ZIJWwqzeeeO8Se5nJdEX28IRqUS1aDzNE/MqbA==",
   "success": true,
   "projectFilePath": "/Users/taft/Projects/KampIntro/Business/Business.csproj",
   "expectedPackageFiles": [
+    "/Users/taft/.nuget/packages/autofac/7.0.0/autofac.7.0.0.nupkg.sha512",
+    "/Users/taft/.nuget/packages/autofac.extras.dynamicproxy/7.0.0/autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
+    "/Users/taft/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
@@ -19,6 +22,8 @@
     "/Users/taft/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/npgsql/7.0.0/npgsql.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.0/npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
+    "/Users/taft/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/Users/taft/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

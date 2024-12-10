@@ -1,27 +1,38 @@
-﻿<Properties StartupConfiguration="{2113C396-864D-48C5-BEF8-73FF972F024D}|Default">
+﻿<Properties StartupConfiguration="{69731CA3-D328-40E4-95D0-F856250F0642}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.KampIntro.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/ProductManager.cs">
     <Files>
-      <File FileName="ConsoleUI/Program.cs" Line="21" Column="1" />
+      <File FileName="ConsoleUI/Program.cs" Line="30" Column="1" />
+      <File FileName="Core/Utilities/Results/IDataResult.cs" Line="10" Column="1" />
+      <File FileName="Core/Utilities/Results/DataResult.cs" Line="20" Column="1" />
+      <File FileName="Core/Utilities/Results/SuccessDataResult.cs" Line="21" Column="1" />
+      <File FileName="Core/Utilities/Results/ErrorDataResult.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="KampIntro">
+          <Node name="KampIntro" expanded="True">
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="ProductManager.cs" selected="True" />
+              </Node>
+              <Node name="Constants" expanded="True" />
             </Node>
             <Node name="ConsoleUI" expanded="True" />
-            <Node name="DataAccess" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="DataAccess" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
-                <Node name="InMemory" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+              <Node name="Utilities" expanded="True">
+                <Node name="Results" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -29,7 +40,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.KampIntro.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

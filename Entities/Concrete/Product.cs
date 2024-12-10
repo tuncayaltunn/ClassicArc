@@ -20,6 +20,7 @@ namespace Entities.Concrete
 		public short units_in_stock { get; set; }
 
 		public float unit_price { get; set; }
+		public int discontinued { get; set; }
 
 	}
 }

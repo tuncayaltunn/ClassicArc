@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VNtV+Wo/FLZzd4qcyM0zpd1vBWrL06L2piGRvJwJh9YhlfDEdsyHGVN0dzlY6uu5fNF9zB76bpCr0ORzDamy/Q==",
+  "dgSpecHash": "YSFOnQ9cDZqdfwas3jdOm2+tT9b3FzJTp5aw+CTqTreGQrgRVJOKWsJVa75YfleII3DBVza9XR9HrekskT9xNg==",
   "success": true,
   "projectFilePath": "/Users/taft/Projects/KampIntro/Business/Business.csproj",
   "expectedPackageFiles": [
     "/Users/taft/.nuget/packages/autofac/7.0.0/autofac.7.0.0.nupkg.sha512",
+    "/Users/taft/.nuget/packages/autofac.extensions.dependencyinjection/7.0.0/autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/autofac.extras.dynamicproxy/7.0.0/autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/taft/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",

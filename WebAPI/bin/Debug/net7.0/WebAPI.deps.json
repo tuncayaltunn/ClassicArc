@@ -192,6 +192,9 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Autofac": "7.0.0",
+          "Autofac.Extensions.DependencyInjection": "7.0.0",
+          "Autofac.Extras.DynamicProxy": "7.0.0",
           "FluentValidation": "11.11.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.0"

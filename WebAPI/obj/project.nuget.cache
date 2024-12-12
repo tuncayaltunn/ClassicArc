@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ofkyrqldu+e0QImyC/t0Y02cwVMUAHJg/O8GRrrkjr2csOeJM2iPtWmLe0wNML21xiQchtwevLzcwSPi+KQevg==",
+  "dgSpecHash": "9KinC5s6NVc3ohczO0OC8yIBqXuxghR8AARZgCcuwbLSOAW/39mdpqePR9c+G9d32efB2Wl0x8FVa7Z1NO6PKA==",
   "success": true,
   "projectFilePath": "/Users/taft/Projects/KampIntro/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/taft/.nuget/packages/autofac.extensions.dependencyinjection/7.0.0/autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/autofac.extras.dynamicproxy/7.0.0/autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/taft/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",

@@ -12,6 +12,8 @@
     <None Remove="Constants\" />
     <None Remove="DependencyResolvers\" />
     <None Remove="DependencyResolvers\Autofac\" />
+    <None Remove="ValidationRules\" />
+    <None Remove="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concrete\" />
@@ -19,6 +21,8 @@
     <Folder Include="Constants\" />
     <Folder Include="DependencyResolvers\" />
     <Folder Include="DependencyResolvers\Autofac\" />
+    <Folder Include="ValidationRules\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
@@ -27,5 +31,6 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="7.0.0" />
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
   </ItemGroup>
 </Project>

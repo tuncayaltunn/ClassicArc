@@ -12,6 +12,8 @@
     <None Remove="DataAccess\EntityFramework\" />
     <None Remove="Utilities\" />
     <None Remove="Utilities\Results\" />
+    <None Remove="CrossCuttingConcerns\" />
+    <None Remove="CrossCuttingConcerns\Validation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -19,9 +21,12 @@
     <Folder Include="DataAccess\EntityFramework\" />
     <Folder Include="Utilities\" />
     <Folder Include="Utilities\Results\" />
+    <Folder Include="CrossCuttingConcerns\" />
+    <Folder Include="CrossCuttingConcerns\Validation\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
   </ItemGroup>
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "omyP+l/nVox3YewbwxSLSZmAVv0HWraP45uvX4ouVrZ01sxnL71hmCVv/rUlAAiLhZZZ0AbPgF/PR6SZ6U1mnQ==",
+  "dgSpecHash": "lNlw1SWJO8XUIyk0kw3PWS0VR8wfbapH2WYC7nFVJDccGtDLqyFxOUQAVSk32fXNPbJjSsNBpGkpS/4S4NMWpw==",
   "success": true,
   "projectFilePath": "/Users/taft/Projects/KampIntro/Entities/Entities.csproj",
   "expectedPackageFiles": [
+    "/Users/taft/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",

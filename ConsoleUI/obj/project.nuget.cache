@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tsaH6bBdLNU+FDz94n9omuRaioOQicrArOs4LvGts59Oqg8Yx7Mnkl6d57f74p9m1EAH2zS5JE9QapNHgP6rNg==",
+  "dgSpecHash": "CIjj/h3pbtgBU/pQrbeNzrhMFz3J9Emz5jOL8FvaXuWEHgeTMAPR6Tw+ojtgXLVSz87Udn5fgUly31jC0XW13Q==",
   "success": true,
   "projectFilePath": "/Users/taft/Projects/KampIntro/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
     "/Users/taft/.nuget/packages/autofac/7.0.0/autofac.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/autofac.extras.dynamicproxy/7.0.0/autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/taft/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "/Users/taft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",

@@ -27,6 +27,18 @@
           }
         }
       },
+      "Autofac.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Autofac": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "Autofac.Extras.DynamicProxy/7.0.0": {
         "dependencies": {
           "Autofac": "7.0.0",
@@ -47,6 +59,14 @@
           "lib/net6.0/Castle.Core.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
           }
         }
       },
@@ -239,7 +259,8 @@
           "Autofac": "7.0.0",
           "Autofac.Extras.DynamicProxy": "7.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "11.11.0"
         },
         "runtime": {
           "Business.dll": {}
@@ -247,6 +268,10 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Autofac": "7.0.0",
+          "Autofac.Extensions.DependencyInjection": "7.0.0",
+          "Autofac.Extras.DynamicProxy": "7.0.0",
+          "FluentValidation": "11.11.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.0"
         },
@@ -288,6 +313,13 @@
       "path": "autofac/7.0.0",
       "hashPath": "autofac.7.0.0.nupkg.sha512"
     },
+    "Autofac.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sZhkka022q9RBo29lVYW3/1GdU4mUj70f46ug2DlTAkxqJ5QeT+haG6Yf17OtL1yeN24EzjYavqmxmolW62T5w==",
+      "path": "autofac.extensions.dependencyinjection/7.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
     "Autofac.Extras.DynamicProxy/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -301,6 +333,13 @@
       "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "path": "castle.core/5.1.1",
       "hashPath": "castle.core.5.1.1.nupkg.sha512"
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.0": {
       "type": "package",

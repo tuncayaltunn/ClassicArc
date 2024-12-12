@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Business.Abstract;
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
@@ -10,7 +11,7 @@ using DataAccess.Concrete.InMemory;
 //CategoryTest();
 
 
-ProductManager productManager = new ProductManager(new EfProductDal());
+ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 
 var result = productManager.GetProductDetails();
 
@@ -31,7 +32,7 @@ else
 
 static void ProductTest()
 {
-    ProductManager productManager = new ProductManager(new EfProductDal());
+    ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 
     var result = productManager.GetAll();
 
@@ -52,7 +53,7 @@ static void ProductTest()
 static void CategoryTest()
 {
     CategoryManager CategoryManager = new CategoryManager(new EfCategoryDal());
-    foreach (var item in CategoryManager.GetAll())
+    foreach (var item in CategoryManager.GetAll().Data)
     {
         Console.WriteLine(item.category_name);
     }

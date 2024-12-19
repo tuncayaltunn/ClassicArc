@@ -31,6 +31,7 @@
     <None Remove="CrossCuttingConcerns\Caching\Microsoft\" />
     <None Remove="CrossCuttingConcerns\Caching\Redis\" />
     <None Remove="Aspects\Autofac\Caching\" />
+    <None Remove="Aspects\Autofac\Transaction\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -57,6 +58,7 @@
     <Folder Include="CrossCuttingConcerns\Caching\Microsoft\" />
     <Folder Include="CrossCuttingConcerns\Caching\Redis\" />
     <Folder Include="Aspects\Autofac\Caching\" />
+    <Folder Include="Aspects\Autofac\Transaction\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />

@@ -27,6 +27,10 @@
     <None Remove="Extensions\" />
     <None Remove="Utilities\IoC\" />
     <None Remove="DependecyResolvers\" />
+    <None Remove="CrossCuttingConcerns\Caching\" />
+    <None Remove="CrossCuttingConcerns\Caching\Microsoft\" />
+    <None Remove="CrossCuttingConcerns\Caching\Redis\" />
+    <None Remove="Aspects\Autofac\Caching\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -49,6 +53,10 @@
     <Folder Include="Extensions\" />
     <Folder Include="Utilities\IoC\" />
     <Folder Include="DependecyResolvers\" />
+    <Folder Include="CrossCuttingConcerns\Caching\" />
+    <Folder Include="CrossCuttingConcerns\Caching\Microsoft\" />
+    <Folder Include="CrossCuttingConcerns\Caching\Redis\" />
+    <Folder Include="Aspects\Autofac\Caching\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />

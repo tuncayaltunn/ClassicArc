@@ -10,11 +10,13 @@ using Autofac.Extensions.DependencyInjection;
 using WebAPI;
 using Microsoft.Extensions.Configuration;
 using Autofac.Core;
-using Castle.Core.Configuration;
+using Core.Extensions;
 using Core.Utilities.Security.JWT;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Core.Utilities.Security.Encryption;
+using Core.Utilities.IoC;
+using Core.DependecyResolvers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +34,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(
    builder => builder.RegisterModule(new AutofacBusinessModule()));
 builder.Services.AddControllers();
 
+//builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
@@ -49,8 +52,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
         };
     });
-
-
+//ServiceTool.Create(builder.Services);
+builder.Services.AddDependencyResolvers(new ICoreModule[]
+{
+    new CoreModule()
+});
 
 var app = builder.Build();
 

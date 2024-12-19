@@ -8,8 +8,10 @@
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Autofac.Extras.DynamicProxy.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Castle.Core.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/FluentValidation.dll
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Abstractions.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.WebUtilities.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Bcl.TimeProvider.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
@@ -23,12 +25,14 @@
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.ObjectPool.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Microsoft.Net.Http.Headers.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Npgsql.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/taft/Projects/KampIntro/ConsoleUI/bin/Debug/net7.0/System.Diagnostics.EventLog.dll

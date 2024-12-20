@@ -11,11 +11,11 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (var context = new NorthwindContext())
             {
-                var result = from operationClaim in context.operationclaims
-                             join userOperationClaim in context.useroperationclaims
-                                 on operationClaim.id equals userOperationClaim.operationclaimid
-                             where userOperationClaim.userid == user.id
-                             select new OperationClaim { id = operationClaim.id, name = operationClaim.name };
+                var result = from operationClaim in context.OperationClaims
+                             join userOperationClaim in context.UserOperationClaims
+                                 on operationClaim.Id equals userOperationClaim.OperationClaimId
+                             where userOperationClaim.UserId == user.Id
+                             select new OperationClaim { Id = operationClaim.Id, Name = operationClaim.Name };
                 return result.ToList();
 
             }

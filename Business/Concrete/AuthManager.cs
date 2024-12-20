@@ -26,12 +26,12 @@ namespace Business.Concrete
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
             var user = new User
             {
-                email = userForRegisterDto.Email,
-                firstname = userForRegisterDto.FirstName,
-                lastname = userForRegisterDto.LastName,
-                passwordhash = passwordHash,
-                passwordsalt = passwordSalt,
-                status = true ? 1 : 0
+                Email = userForRegisterDto.Email,
+                FirstName = userForRegisterDto.FirstName,
+                LastName = userForRegisterDto.LastName,
+                PasswordHash = passwordHash,
+                PasswordSalt = passwordSalt,
+                Status = true ? 1 : 0
             };
             _userService.Add(user);
             return new SuccessDataResult<User>(user, Messages.UserRegistered);
@@ -45,7 +45,7 @@ namespace Business.Concrete
                 return new ErrorDataResult<User>(Messages.UserNotFound);
             }
 
-            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.passwordhash, userToCheck.passwordsalt))
+            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }

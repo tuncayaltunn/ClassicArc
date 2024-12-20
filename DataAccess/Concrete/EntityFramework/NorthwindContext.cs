@@ -13,13 +13,13 @@ namespace DataAccess.Concrete.EntityFramework
             optionsBuilder.UseNpgsql("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=Northwind;");
         }
 
-        public DbSet<Category> categories { get; set; }
-        public DbSet<Product> products { get; set; }
-        public DbSet<Customer> customers { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OperationClaim> operationclaims { get; set; }
-        public DbSet<User> users { get; set; }
-        public DbSet<UserOperationClaim> useroperationclaims { get; set; }
+        public DbSet<Category> categories { get; set; }                    // Northwind Entity
+        public DbSet<Product> products { get; set; }                       // Northwind Entity
+        public DbSet<Customer> customers { get; set; }                     // Northwind Entity
+        public DbSet<Order> orders { get; set; }                           // Northwind Entity
+        public DbSet<OperationClaim> OperationClaims { get; set; }         // My Entity
+        public DbSet<User> Users { get; set; }                             // My Entity
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; } // My Entity
 
     }
 }

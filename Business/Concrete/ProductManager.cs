@@ -44,7 +44,7 @@ namespace Business.Concrete
                 return result;
             }
 
-            product.discontinued = 0;
+            //product.discontinued = 0;
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }

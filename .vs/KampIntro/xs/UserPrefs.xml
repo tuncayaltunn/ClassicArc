@@ -1,45 +1,30 @@
 ﻿<Properties StartupConfiguration="{69731CA3-D328-40E4-95D0-F856250F0642}|http">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/ProductManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Utilities/Results/IDataResult.cs">
     <Files>
-      <File FileName="Business/Abstract/IProductService.cs" Line="16" Column="47" />
-      <File FileName="Business/Concrete/ProductManager.cs" Line="38" Column="15" />
-      <File FileName="Core/Aspects/Autofac/Transaction/TransactionScopeAspect.cs" Line="27" Column="2" />
-      <File FileName="Core/Aspects/Autofac/Performance/PerformanceAspect.cs" Line="21" Column="1" />
-      <File FileName="Core/DependecyResolvers/CoreModule.cs" Line="19" Column="10" />
+      <File FileName="Core/Extensions/ExceptionMiddleware.cs" Line="38" Column="13" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="53" Column="21" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" Line="31" Column="33" />
+      <File FileName="Core/Utilities/Results/IDataResult.cs" Line="4" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="KampIntro">
-            <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
-            </Node>
+          <Node name="KampIntro" expanded="True">
             <Node name="Core" expanded="True">
-              <Node name="Aspects" expanded="True">
-                <Node name="Autofac" expanded="True">
-                  <Node name="Performance" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="CrossCuttingConcerns" expanded="True">
-                <Node name="Caching" expanded="True">
-                  <Node name="Microsoft" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="DependecyResolvers" expanded="True" />
+              <Node name="Utilities" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.KampIntro.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

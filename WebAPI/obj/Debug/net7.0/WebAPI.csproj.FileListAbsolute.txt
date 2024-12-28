@@ -61,3 +61,4 @@
 /Users/taft/Projects/KampIntro/WebAPI/obj/Debug/net7.0/WebAPI.pdb
 /Users/taft/Projects/KampIntro/WebAPI/obj/Debug/net7.0/WebAPI.genruntimeconfig.cache
 /Users/taft/Projects/KampIntro/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll
+/Users/taft/Projects/KampIntro/WebAPI/bin/Debug/net7.0/Newtonsoft.Json.dll
